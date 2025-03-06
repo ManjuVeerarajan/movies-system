@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.env
+Dockerfile.*
+dist/
+movies-backend/tests/__snapshots__
+movies-frontend/build/
