@@ -20,7 +20,7 @@ all containerized with Docker Compose.
 | (React/Nginx)  |       | (Node.js/Expr) |       |   (Database)   |
 |  localhost:3001|       | localhost:3000 |       +----------------+
 +----------------+       |                |       +----------------+
-                         |                |       |  Elasticsearch |
-                         |                | <---> |   (Search)     |
-                         |                |       | localhost:9200 |
-                         +----------------+       +----------------+
+                         |                | <---> |  Elasticsearch |
+                         |                |       |   (Search)     |
+                         +----------------+       | localhost:9200 |
+                                                  +----------------+
